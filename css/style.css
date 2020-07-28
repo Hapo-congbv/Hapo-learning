@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "UTM";
+  src: url("../fonts/UTM-BryantLG.ttf");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "UTM";
+  src: url("../fonts/UTM-BryantLG_B.ttf");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: normal; }
+* {
+  margin: 0;
+  padding: 0; }
 
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+ul li {
+  list-style: none; }
+
+body {
+  font-family: 'UTM'; }
 
 /*# sourceMappingURL=style.css.map */
