@@ -32,4 +32,54 @@ ul li {
 body {
   font-family: 'UTM'; }
 
+.hapo-wrap-header {
+  height: 120px; }
+
+.hapo-nav-item li a {
+  font: normal bold 16px/22px Open Sans;
+  text-transform: uppercase;
+  color: #505353 !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 40px;
+  border-radius: 17px; }
+  .hapo-nav-item li a:hover {
+    color: #FFFFFF !important;
+    background: #B2D235 !important; }
+
+@media (max-width: 768px) {
+  .hapo-wrap-header {
+    padding: 0;
+    margin: 0; }
+    .hapo-wrap-header .img-logo {
+      width: 300px;
+      height: 61.74px;
+      -webkit-transform: translateY(-5%);
+              transform: translateY(-5%); }
+
+  .hapo-nav-item {
+    padding: 5px 0; }
+    .hapo-nav-item li {
+      margin-bottom: 15px;
+      margin: 0 15px; }
+      .hapo-nav-item li a {
+        margin: 0; } }
+@media only screen and (max-width: 425px) {
+  .hapo-wrap-header .img-logo {
+    height: 50px;
+    width: 150px;
+    -webkit-transform: translateY(5%);
+            transform: translateY(5%); }
+
+  .hapo-nav-item {
+    padding: 5px 10p; }
+    .hapo-nav-item li {
+      margin: 15px 15px; }
+      .hapo-nav-item li a {
+        text-align: center;
+        margin: 0; }
+        .hapo-nav-item li a:hover {
+          color: #B2D235 !important;
+          background: #ffffff !important; } }
+
 /*# sourceMappingURL=style.css.map */

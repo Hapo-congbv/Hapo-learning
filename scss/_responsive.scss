@@ -1,0 +1,51 @@
+@media (max-width: 768px) { 
+  .hapo-wrap-header {
+    padding: 0;
+    margin: 0;
+    
+    .img-logo {
+      width: 300px;
+      height: 61.74px;
+      transform: translateY(-5%);
+    }
+  }
+  .hapo-nav-item {
+    padding: 5px 0;
+
+    li {
+      margin-bottom: 15px;
+      margin: 0 15px;
+      a {
+          margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hapo-wrap-header {
+    .img-logo {
+      height: 50px;
+      width: 150px;
+      transform: translateY(5%);
+    }
+  }
+
+  .hapo-nav-item {
+      padding: 5px 10p;
+
+      li {
+        margin: 15px 15px;
+        a {
+          text-align: center;
+          margin: 0;
+          &:hover {
+            color: $main_color !important;
+            background: #ffffff !important;
+          }
+        }
+      }
+    }
+
+}
+

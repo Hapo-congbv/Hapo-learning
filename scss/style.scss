@@ -22,4 +22,27 @@ body {
   font-family: 'UTM';
 }
 
+.hapo-wrap-header {
+  height: 120px;
+}
+
+.hapo-nav-item {
+  li {
+    a {
+      font: normal bold 16px/22px Open Sans;
+      text-transform: uppercase;
+      color: #505353 !important;
+      text-align: center;
+      text-transform: uppercase;
+      margin-right: 40px;
+      border-radius: 17px;
+      &:hover {
+        color: #FFFFFF !important;
+        background: $main_color !important;
+      }
+    }
+  }
+}
+
+
 @import 'responsive';
