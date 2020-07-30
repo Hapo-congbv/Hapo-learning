@@ -7,12 +7,12 @@
     }
   }
 
-  .hapo-nav-item {
+  #sibarNavbar {
     padding: 5px 0;
 
     li {
       margin-bottom: 15px;
-      margin: 0 15px;
+      margin: 0 20px;
 
       a {
           margin: 0;
@@ -29,7 +29,7 @@
     }
   }
 
-  .hapo-nav-item {
+  #sibarNavbar {
     padding: 5px 10px;
 
     li {
@@ -38,8 +38,8 @@
       a {
         text-align: center;
         &:hover {
-          color: $main_color !important;
-          background: #ffffff !important;
+          color: $main_color;
+          background: #ffffff;
         }
       }
     }

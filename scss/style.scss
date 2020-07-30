@@ -26,18 +26,17 @@ body {
   height: 120px;
 }
 
-.hapo-nav-item {
+#sibarNavbar {
   li {
     a {
       font: normal bold 16px/22px Open Sans;
-      text-transform: uppercase;
-      color: #505353 !important;
+      color: #505353;
       text-align: center;
       margin-right: 40px;
       border-radius: 17px;
       &:hover {
-        color: #FFFFFF !important ;
-        background: $main_color !important;
+        color: #FFFFFF  ;
+        background: $main_color;
       }
     }
   }
