@@ -1,8 +1,5 @@
 @media (max-width: 768px) { 
-  .hapo-wrap-header {
-    padding: 0;
-    margin: 0;
-    
+  .hapo-wrap-header { 
     .img-logo {
       width: 300px;
       height: 61.74px;
@@ -29,19 +26,17 @@
     .img-logo {
       height: 50px;
       width: 150px;
-      transform: translateY(5%);
     }
   }
 
   .hapo-nav-item {
-    padding: 5px 10p;
+    padding: 5px 10px;
 
     li {
       margin: 15px 15px;
-      
+
       a {
         text-align: center;
-        margin: 0;
         &:hover {
           color: $main_color !important;
           background: #ffffff !important;
