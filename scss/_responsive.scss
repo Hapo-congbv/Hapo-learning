@@ -1,0 +1,47 @@
+@media (max-width: 768px) { 
+  .hapo-wrap-header { 
+    .img-logo {
+      width: 300px;
+      height: 61.74px;
+      transform: translateY(-5%);
+    }
+  }
+
+  #sibarNavbar {
+    padding: 5px 0;
+
+    li {
+      margin-bottom: 15px;
+      margin: 0 20px;
+
+      a {
+          margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hapo-wrap-header {
+    .img-logo {
+      height: 50px;
+      width: 150px;
+    }
+  }
+
+  #sibarNavbar {
+    padding: 5px 10px;
+
+    li {
+      margin: 15px;
+
+      a {
+        text-align: center;
+        &:hover {
+          color: $main_color;
+          background: #ffffff;
+        }
+      }
+    }
+  }
+}

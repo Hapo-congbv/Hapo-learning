@@ -22,4 +22,25 @@ body {
   font-family: 'UTM';
 }
 
+.hapo-wrap-header {
+  height: 120px;
+}
+
+#sibarNavbar {
+  li {
+    a {
+      font: normal bold 16px/22px Open Sans;
+      color: #505353;
+      text-align: center;
+      margin-right: 40px;
+      border-radius: 17px;
+      &:hover {
+        color: #FFFFFF  ;
+        background: $main_color;
+      }
+    }
+  }
+}
+
+
 @import 'responsive';
