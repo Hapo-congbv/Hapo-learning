@@ -32,19 +32,18 @@
   }
 
   .hapo-nav-item {
-      padding: 5px 10p;
+    padding: 5px 10p;
 
-      li {
-        margin: 15px 15px;
-        a {
-          text-align: center;
-          margin: 0;
-          &:hover {
-            color: $main_color !important;
-            background: #ffffff !important;
-          }
+    li {
+      margin: 15px 15px;
+      a {
+        text-align: center;
+        margin: 0;
+        &:hover {
+          color: $main_color !important;
+          background: #ffffff !important;
         }
       }
     }
-
+  }
 }
