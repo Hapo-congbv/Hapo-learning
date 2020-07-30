@@ -1,0 +1,25 @@
+@import 'variable';
+@include font-face('UTM', '../fonts/UTM-BryantLG.ttf', normal);
+@include font-face('UTM', '../fonts/UTM-BryantLG_B.ttf', bold);
+@include font-face('Open Sans', '../fonts/OpenSans-Bold.ttf', bold);
+@include font-face('Open Sans', '../fonts/OpenSans-Regular.ttf', normal);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: 'UTM';
+}
+
+@import 'responsive';
