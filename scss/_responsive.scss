@@ -39,11 +39,11 @@
       }
 
       .hapo-txt-dect p {
-        letter-spacing: -0.05em;
         height: 40px;
         width: 200px;
         margin-top: 5px;
         @include font_UTM(normal, 16px, #505353);
+        letter-spacing: -0.05em;
       }
 
       .hapoOw {
