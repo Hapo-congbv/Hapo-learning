@@ -48,9 +48,9 @@ body {
     transform: translateY(70%);
     margin-left: 40px;
 
-    h2 {
-      @include font_UTM(bold, 50px, #11114E);
+    .hapo-txt h2 {
       letter-spacing: -0.05em;
+      @include font_UTM(bold, 50px, #11114E);
     }
 
     .hapo-txt-title {
@@ -72,7 +72,6 @@ body {
 
     .hapo-slide-button-link {
       background: $main_color;
-      @include font_UTM(bold, 30px, #FFFFFF);
       line-height: 65px;
       display: block;
       width: 377px;
@@ -82,6 +81,7 @@ body {
       text-align: center;
       letter-spacing: -0.05em;
       -webkit-text-stroke: 0.05px #fff;
+      @include font_UTM(bold, 30px, #FFFFFF);
 
       &:hover {
         opacity: 0.8;
@@ -93,11 +93,11 @@ body {
 }
 
 .block-messenger {
-  @include font_Open(600,12px);
   position: fixed;
   z-index: 1;
   right: 60px;
   bottom: 90px;
+  @include font_Open(600,12px);
 
   .toggle-class {
     display: none;
@@ -128,9 +128,9 @@ body {
   }
 
   .web-name {
-    @include font_Open (600,12px);
     color: #7f7f7f;
     margin: 5% 0 0 5%;
+    @include font_Open (600,12px);
   }
 
   .block-alert {
@@ -143,19 +143,19 @@ body {
   .text-alert {
     color: #505353;
     margin-left: 3%;
-    @include font_Open(normal,12px);
     letter-spacing: -0.02em;
     padding: 10px;
+    @include font_Open(normal,12px);
   }
 
   .hapo-button-messager-link {
     border-radius: 10px;
-    @include font_Open(600,12px);
     letter-spacing: -0.02em;
     color: #fff;
     background-color: #3184F7;
     width: 276px;
     height: 37px;
+    @include font_Open(600,12px);
   }
 
   .txt-chat {
