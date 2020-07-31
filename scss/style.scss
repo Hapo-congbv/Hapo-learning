@@ -72,7 +72,7 @@ body {
 
     .hapo-slide-button-link {
       background: $main_color;
-      line-height: 65px;
+     
       display: block;
       width: 377px;
       height: 70px;
@@ -81,7 +81,7 @@ body {
       text-align: center;
       letter-spacing: -0.05em;
       -webkit-text-stroke: 0.05px #fff;
-      @include font_UTM(bold, 30px, #FFFFFF);
+      font: bold 30px/65px #ffffff UTM;
 
       &:hover {
         opacity: 0.8;

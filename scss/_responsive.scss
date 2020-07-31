@@ -30,8 +30,8 @@
       margin-left: 30px;
 
       .hapo-txt h2 {
-        @include font_UTM(bold, 30px, #11114E);
         letter-spacing: -0.05em;
+        @include font_UTM(bold, 30px, #11114E);
       }
 
       .hapo-txt-title {
@@ -42,8 +42,8 @@
         height: 40px;
         width: 200px;
         margin-top: 5px;
-        @include font_UTM(normal, 16px, #505353);
         letter-spacing: -0.05em;
+        @include font_UTM(normal, 16px, #505353);
       }
 
       .hapoOw {
@@ -56,10 +56,9 @@
       }
 
       .hapo-slide-button-link {
-        @include font_UTM(bold, 16px, #FFFFFF);
-        line-height: 35px;
         width: 200px;
         height: 37px;
+        font: bold 16px/35px #ffffff UTM;
       }
     }
   }
@@ -111,8 +110,8 @@
       margin: 0 63px;
 
       .hapo-txt h2 {
-        @include font_UTM(bold, 25px, #11114E);
         letter-spacing: -0.05em;
+        @include font_UTM(bold, 25px, #11114E);
       }
 
       .hapo-txt-title {
@@ -137,10 +136,9 @@
       }
 
       .hapo-slide-button-link {
-        @include font_UTM(bold, 18px, #FFFFFF);
-        line-height: 45px;
         width: 250px;
         height: 46px;
+        font: bold 18px/45px #ffffff UTM;
       }
     }
   }
