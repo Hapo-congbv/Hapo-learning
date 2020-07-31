@@ -22,10 +22,6 @@ body {
   font-family: 'UTM';
 }
 
-.hapo-wrap-header {
-  height: 120px;
-}
-
 #sibarNavbar {
   li {
     a {
@@ -42,5 +38,146 @@ body {
   }
 }
 
+.hapo-wrap-banner {
+  background: url("../images/hapo-learn-banner.png") no-repeat center/cover ;
+  position: relative;
+  height: 655px;
+
+  .hapo-slide-dect {
+    font-family: UTM;
+    transform: translateY(70%);
+    margin-left: 40px;
+
+    h2 {
+      @include font_UTM(bold, 50px, #11114E);
+      letter-spacing: -0.05em;
+    }
+
+    .hapo-txt-title {
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM (bold, 60px, #11114E);
+    }
+
+    .hapo-txt-dect p {
+      letter-spacing: -0.05em;
+      height: 50px;
+      width: 249px;
+      margin-top: 10px;
+      @include font_UTM(normal, 20px, #505353);
+    }
+
+    .hapo-slide-button {
+      transform: translateY(50%);
+    }
+
+    .hapo-slide-button-link {
+      background: $main_color;
+      @include font_UTM(bold, 30px, #FFFFFF);
+      line-height: 65px;
+      display: block;
+      width: 377px;
+      height: 70px;
+      box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 35px;
+      text-align: center;
+      letter-spacing: -0.05em;
+      -webkit-text-stroke: 0.05px #fff;
+
+      &:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.block-messenger {
+  @include font_Open(600,12px);
+  position: fixed;
+  z-index: 1;
+  right: 60px;
+  bottom: 90px;
+
+  .toggle-class {
+    display: none;
+  }
+
+  .messenger {
+    background-color: #2774DF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .block-chat {
+    height: 190px;
+    width: 360px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+  }
+
+  .img-hapo {
+    width: 28px;
+    height: 28px;
+    margin-top: 60px;
+  }
+
+  .web-name {
+    @include font_Open (600,12px);
+    color: #7f7f7f;
+    margin: 5% 0 0 5%;
+  }
+
+  .block-alert {
+    background-color: #F1F0F0;
+    border-radius: 15px;
+    width: 256px;
+    height: 53px;
+  }
+
+  .text-alert {
+    color: #505353;
+    margin-left: 3%;
+    @include font_Open(normal,12px);
+    letter-spacing: -0.02em;
+    padding: 10px;
+  }
+
+  .hapo-button-messager-link {
+    border-radius: 10px;
+    @include font_Open(600,12px);
+    letter-spacing: -0.02em;
+    color: #fff;
+    background-color: #3184F7;
+    width: 276px;
+    height: 37px;
+  }
+
+  .txt-chat {
+    text-align: center;
+    color: #B3B3B3;
+    margin-top: 2%;
+    font-weight: normal;
+  }
+
+  .close {
+    background-color: #C4C4C4;
+    width: 24px;
+    height: 24px;
+    font-size: 15px;
+    margin-top: 3%;
+  }
+
+}
+
+.color-fix {
+  height: 170px;
+  background-image: linear-gradient(white, #E5E5E5);
+}
 
 @import 'responsive';

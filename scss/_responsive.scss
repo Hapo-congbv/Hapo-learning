@@ -19,6 +19,62 @@
       }
     }
   }
+
+  .hapo-wrap-banner {
+    height: 300px;
+    width: 100%;
+
+    .hapo-slide-dect {
+      font-family: UTM;
+      transform: translateY(45%);
+      margin-left: 30px;
+
+      h2 {
+        @include font_UTM(bold, 30px, #11114E);
+        letter-spacing: -0.05em;
+      }
+
+      .hapo-txt-title {
+        @include font_UTM (bold, 30px, #11114E);
+      }
+
+      .hapo-txt-dect p {
+        letter-spacing: -0.05em;
+        height: 40px;
+        width: 200px;
+        margin-top: 5px;
+        @include font_UTM(normal, 16px, #505353);
+      }
+
+      .hapoOw {
+        width: 34px;
+        height: 34px;
+      }
+
+      .hapo-slide-button {
+        transform: translateY(30%);
+      }
+
+      .hapo-slide-button-link {
+        @include font_UTM(bold, 16px, #FFFFFF);
+        line-height: 35px;
+        width: 200px;
+        height: 37px;
+      }
+    }
+  }
+
+  .block-messenger {
+    .messenger {
+      width: 50px;
+      height: 50px;
+
+      .icon-mes {
+        width: 37px;
+        height: 37px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -44,4 +100,53 @@
       }
     }
   }
+
+  .hapo-wrap-banner {
+    height: 200px;
+    width: 100%;
+
+    .hapo-slide-dect {
+      font-family: UTM;
+      transform: translateY(120%);
+      margin: 0 63px;
+
+      h2 {
+        @include font_UTM(bold, 25px, #11114E);
+        letter-spacing: -0.05em;
+      }
+
+      .hapo-txt-title {
+        @include font_UTM (bold, 25px, #11114E);
+      }
+
+      .hapo-txt-dect p {
+        letter-spacing: -0.05em;
+        height: 40px;
+        width: 200px;
+        margin-top: 5px;
+        @include font_UTM(normal, 16px, #505353);
+      }
+
+      .hapoOw {
+        width: 25px;
+        height: 25px;
+      }
+
+      .hapo-slide-button {
+        transform: translateY(30%);
+      }
+
+      .hapo-slide-button-link {
+        @include font_UTM(bold, 18px, #FFFFFF);
+        line-height: 45px;
+        width: 250px;
+        height: 46px;
+      }
+    }
+  }
+
+  .color-fix {
+    height: 320px;
+  }
+
 }
