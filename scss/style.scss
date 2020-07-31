@@ -80,7 +80,6 @@ body {
       letter-spacing: -0.05em;
       -webkit-text-stroke: 0.05px #fff;
       @include font_UTM(bold,30px,#ffffff);
-
       &:hover {
         opacity: 0.8;
         transform: scale(1.1);
@@ -109,6 +108,9 @@ body {
     bottom: 20px;
     right: 30px;
     cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   .block-chat {
@@ -154,6 +156,10 @@ body {
     width: 276px;
     height: 37px;
     @include font_Open(600,12px);
+    &:hover {
+      text-emphasis: none;
+      opacity: 0.8;
+    }
   }
 
   .txt-chat {
