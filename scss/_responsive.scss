@@ -19,6 +19,62 @@
       }
     }
   }
+
+  .hapo-wrap-banner {
+    height: 300px;
+    width: 100%;
+
+    .hapo-slide-dect {
+      font-family: UTM;
+      transform: translateY(45%);
+      margin-left: 30px;
+
+      .hapo-txt {
+        letter-spacing: -0.05em;
+        @include font_UTM(bold, 30px, #11114E);
+      }
+
+      .hapo-txt-title {
+        @include font_UTM (bold, 30px, #11114E);
+      }
+
+      .hapo-txt-dect p {
+        height: 40px;
+        padding: 10px 0;
+        margin-top: 5px;
+        letter-spacing: -0.05em;
+        @include font_UTM(normal, 16px, #505353);
+      }
+
+      .hapo-ow {
+        width: 34px;
+        height: 34px;
+      }
+
+      .hapo-slide-button {
+        transform: translateY(30%);
+      }
+
+      .hapo-slide-button-link {
+        padding: 10px 40px;
+        height: 37px;
+        @include font_UTM(bold,16px,#ffffff);
+        line-height: 35px;
+      }
+    }
+  }
+
+  .block-messenger {
+    .messenger {
+      width: 50px;
+      height: 50px;
+
+      .icon-mes {
+        width: 37px;
+        height: 37px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -44,4 +100,53 @@
       }
     }
   }
+
+  .hapo-wrap-banner {
+    height: 200px;
+    width: 100%;
+
+    .hapo-slide-dect {
+      font-family: UTM;
+      transform: translateY(120%);
+      margin: 0 63px;
+
+      .hapo-txt {
+        letter-spacing: -0.05em;
+        @include font_UTM(bold, 25px, #11114E);
+      }
+
+      .hapo-txt-title {
+        @include font_UTM (bold, 25px, #11114E);
+      }
+
+      .hapo-txt-dect p {
+        letter-spacing: -0.05em;
+        height: 40px;
+        padding: 5px 0;
+        margin-top: 5px;
+        @include font_UTM(normal, 16px, #505353);
+      }
+
+      .hapo-ow {
+        width: 25px;
+        height: 25px;
+      }
+
+      .hapo-slide-button {
+        transform: translateY(30%);
+      }
+
+      .hapo-slide-button-link {
+        padding: 10px 60px;
+        height: 46px;
+        @include font_UTM(bold,18px,#ffffff);
+        line-height: 45px;
+      }
+    }
+  }
+
+  .color-fix {
+    height: 320px;
+  }
+
 }
