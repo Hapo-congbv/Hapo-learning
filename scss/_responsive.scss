@@ -94,41 +94,41 @@
       @include font_UTM(normal, 15px, #FFFFFF);
     }
 
-    .hapo-nav-footer li {
-      margin-bottom: 8px;
+    .hapo-nav-footer { 
+      li {
+        margin-bottom: 8px;
+      }
+
+      a {
+        @include font_UTM(bold,18px,#ffffff);
+      } 
     }
-
-    .hapo-nav-footer a {
-      @include font_UTM(bold,18px,#ffffff);
-    } 
-
-    .hapo-nav-footer-icon {
+    .hapo-nav-footer-icon { 
       transform: translateY(70%);
-    }
 
-    .hapo-nav-footer-icon a {
-      width: 40px;
-      height: 40px;
-      margin: auto 15px;
-    }
+      a {
+        width: 40px;
+        height: 40px;
+        margin: auto 15px;
+      }
 
-    .hapo-nav-footer-icon img {
-      width: 12px;
-      height: 26px;
-    }
+      img {
+        width: 12px;
+        height: 26px;
+      }
 
-    .hapo-nav-footer-icon .icon-mail {
-      font-size: x-large;
-    }
+      .icon-mail {
+        font-size: x-large;
+      }
+    } 
 
     .hapo-copyright {
       height: 38px;
       position: initial;
-    }
 
-    .hapo-copyright p {
-      margin: 8px auto auto auto;
-      @include font_UTM(normal, 15px, #ffffff)
+      p {
+        @include font_UTM(normal, 15px, #ffffff)
+      }
     }
 
   }
