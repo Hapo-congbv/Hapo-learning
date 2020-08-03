@@ -202,8 +202,8 @@ footer {
     }
 
     p {
-      padding-left: 50px;
-      height: 50px;
+      // padding-left: 50px;
+      margin-right: 55px;
       letter-spacing: -0.05em;
       @include font_UTM(normal, 20px, #FFFFFF);
     }
@@ -212,7 +212,7 @@ footer {
 
   .hapo-nav-footer { 
     li {
-    margin-bottom: 25px;
+      margin-bottom: 25px;
     }
 
     a {

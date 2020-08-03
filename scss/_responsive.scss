@@ -89,8 +89,7 @@
     }
 
     .hapo-footer-logo p {
-      height: 40px;
-      width: 190px;
+      margin-right: 0;
       @include font_UTM(normal, 15px, #FFFFFF);
     }
 
