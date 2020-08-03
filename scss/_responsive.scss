@@ -75,6 +75,63 @@
       }
     }
   }
+
+  footer {
+    .container-content {
+      padding-left: 40px;
+      padding-right: 20px;
+      transform: translateY(10%);
+    }
+
+    .hapo-footer-logo img {
+      width: 170px;
+      height: 35px;
+    }
+
+    .hapo-footer-logo p {
+      margin-right: 0;
+      @include font_UTM(normal, 15px, #FFFFFF);
+    }
+
+    .hapo-nav-footer { 
+      li {
+        margin-bottom: 8px;
+      }
+
+      a {
+        @include font_UTM(bold,18px,#ffffff);
+      } 
+    }
+    .hapo-nav-footer-icon { 
+      transform: translateY(70%);
+
+      a {
+        width: 40px;
+        height: 40px;
+        margin: auto 15px;
+      }
+
+      img {
+        width: 12px;
+        height: 26px;
+      }
+
+      .icon-mail {
+        font-size: x-large;
+      }
+    } 
+
+    .hapo-copyright {
+      height: 38px;
+      position: initial;
+
+      p {
+        @include font_UTM(normal, 15px, #ffffff)
+      }
+    }
+
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -142,6 +199,30 @@
         @include font_UTM(bold,18px,#ffffff);
         line-height: 45px;
       }
+    }
+  }
+
+  footer {
+    padding: 40px;
+
+    .hapo-footer-menu {
+      top: -20px;
+    }    
+
+    .hapo-nav-footer li {
+      margin-bottom: 24px;
+    }
+
+    .hapo-footer-contact {
+      top: -25px;
+    }
+
+    .hapo-nav-footer-icon .icon-mail {
+      font-size: large;
+    }
+
+    .hapo-copyright {
+      transform: translateY(100%);
     }
   }
 

@@ -184,4 +184,89 @@ body {
   background-image: linear-gradient(white, #E5E5E5);
 }
 
+footer {
+  font-family: UTM;
+  position: relative;
+  background: #505353;
+
+  .container-content {
+    padding-left: 80px;
+    padding-right: 50px;
+    transform: translateY(15%);
+  }
+
+  .hapo-footer-logo{
+    img {
+      width: 291.6px;
+      height: 60px;
+    }
+
+    p {
+      // padding-left: 50px;
+      margin-right: 55px;
+      letter-spacing: -0.05em;
+      @include font_UTM(normal, 20px, #FFFFFF);
+    }
+
+  } 
+
+  .hapo-nav-footer { 
+    li {
+      margin-bottom: 25px;
+    }
+
+    a {
+      letter-spacing: -0.05em;
+      text-decoration: none;
+      @include font_UTM(bold,23px,#ffffff);
+      &:hover {
+        color: #bdd0ea;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .hapo-nav-footer-icon {
+    transform: translateY(70%);
+
+    a {
+      width: 60px;
+      height: 60px;
+      margin: auto 30px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      &:hover {
+        background-color: #bdd0ea;
+      }
+    }
+
+    img {
+      width: 15px;
+      height: 32px;
+    }
+
+    .icon-mail {
+      font-weight: bold; 
+      color:#505353; 
+      font-size: xx-large;
+    }
+  }
+
+  .hapo-copyright {
+    position: absolute;
+    top: 235px;
+    background: #454545;
+    height: 38px;
+    width: 100%;
+
+    p {
+      margin: 8px auto auto auto;
+      text-align: center;    
+      letter-spacing: -0.05em;
+      -webkit-text-stroke: 0.6px #fff;
+      @include font_UTM(normal, 20px, #ffffff)
+    }
+  }
+}
+
 @import 'responsive';
