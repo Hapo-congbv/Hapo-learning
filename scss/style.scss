@@ -78,8 +78,8 @@ body {
       border-radius: 35px;
       text-align: center;
       letter-spacing: -0.05em;
-      -webkit-text-stroke: 0.05px #fff;
-      @include fontUTM(bold,30px,#ffffff);
+      -webkit-text-stroke: 0.05px #FFFFFF;
+      @include fontUTM(bold,30px,#FFFFFF);
       &:hover {
         opacity: 0.8;
         transform: scale(1.1);
@@ -283,7 +283,7 @@ footer {
     a {
       letter-spacing: -0.05em;
       text-decoration: none;
-      @include fontUTM(bold,23px,#ffffff);
+      @include fontUTM(bold,23px,#FFFFFF);
       &:hover {
         color: #bdd0ea;
         transform: scale(1.1);
@@ -328,8 +328,8 @@ footer {
       margin: 8px auto auto auto;
       text-align: center;    
       letter-spacing: -0.05em;
-      -webkit-text-stroke: 0.6px #fff;
-      @include fontUTM(normal, 20px, #ffffff)
+      -webkit-text-stroke: 0.6px #FFFFFF;
+      @include fontUTM(normal, 20px, #FFFFFF)
     }
   }
 }

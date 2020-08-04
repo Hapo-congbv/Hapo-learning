@@ -114,7 +114,7 @@
       }
 
       a {
-        @include fontUTM(bold,18px,#ffffff);
+        @include fontUTM(bold,18px,#FFFFFF);
       } 
     }
     .hapo-nav-footer-icon { 
@@ -141,7 +141,7 @@
       position: initial;
 
       p {
-        @include fontUTM(normal, 15px, #ffffff)
+        @include fontUTM(normal, 15px, #FFFFFF)
       }
     }
 
@@ -167,7 +167,7 @@
         text-align: center;
         &:hover {
           color: $main_color;
-          background: #ffffff;
+          background: #FFFFFF;
         }
       }
     }
@@ -211,8 +211,7 @@
       .hapo-slide-button-link {
         padding: 10px 60px;
         height: 46px;
-        @include fontUTM(bold,18px,#ffffff);
-        line-height: 45px;
+        font: normal bold 18px/45px #FFFFFF;
       }
     }
   }
