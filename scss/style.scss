@@ -50,12 +50,12 @@ body {
 
     .hapo-txt {
       letter-spacing: -0.05em;
-      @include fontUTM(bold, 50px, #11114E);
+      @include fontUTM(bold, 50px, $color_Blueblack);
     }
 
     .hapo-txt-title {
       -webkit-text-stroke-width: 2px;
-      @include fontUTM (bold, 60px, #11114E);
+      @include fontUTM (bold, 60px, $color_Blueblack);
     }
 
     .hapo-txt-dect p {
@@ -215,8 +215,8 @@ body {
     border-radius: 3px;
     margin: 110px auto 40px auto;
     letter-spacing: -0.02em;
-    -webkit-text-stroke: 1px #11114e;
-    @include fontUTM(bold , 80px, #11114E);
+    -webkit-text-stroke: 1px $color_Blueblack;
+    @include fontUTM(bold , 80px, $color_Blueblack);
 
     &:after {
       background-color: $main_color;
