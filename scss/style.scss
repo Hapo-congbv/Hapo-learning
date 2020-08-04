@@ -31,8 +31,8 @@ body {
       margin-right: 40px;
       border-radius: 17px;
       &:hover {
-        color: #FFFFFF  ;
-        background: $main_color;
+        color: $main_color  ;
+        background: $color_link;
       }
     }
   }
@@ -50,12 +50,12 @@ body {
 
     .hapo-txt {
       letter-spacing: -0.05em;
-      @include font_UTM(bold, 50px, #11114E);
+      @include fontUTM(bold, 50px, $color_txt);
     }
 
     .hapo-txt-title {
       -webkit-text-stroke-width: 2px;
-      @include font_UTM (bold, 60px, #11114E);
+      @include fontUTM (bold, 60px, $color_txt);
     }
 
     .hapo-txt-dect p {
@@ -63,7 +63,7 @@ body {
       height: 50px;
       width: 249px;
       margin-top: 10px;
-      @include font_UTM(normal, 20px, #505353);
+      @include fontUTM(normal, 20px, #505353);
     }
 
     .hapo-slide-button {
@@ -71,15 +71,15 @@ body {
     }
 
     .hapo-slide-button-link {
-      background: $main_color;
+      background: $color_link;
       height: 70px;
       padding: 15px 50px;
       box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 35px;
       text-align: center;
       letter-spacing: -0.05em;
-      -webkit-text-stroke: 0.05px #fff;
-      @include font_UTM(bold,30px,#ffffff);
+      -webkit-text-stroke: 0.05px $main_color;
+      @include fontUTM(bold,30px,$main_color);
       &:hover {
         opacity: 0.8;
         transform: scale(1.1);
@@ -94,7 +94,7 @@ body {
   z-index: 1;
   right: 60px;
   bottom: 90px;
-  @include font_Open(600,12px);
+  @include fontOpen(600,12px);
 
   .toggle-class {
     display: none;
@@ -116,7 +116,7 @@ body {
   .block-chat {
     height: 190px;
     width: 360px;
-    background-color: #FFFFFF;
+    background-color: $main_color;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
     border-radius: 23px;
   }
@@ -130,7 +130,7 @@ body {
   .web-name {
     color: #7f7f7f;
     margin: 5% 0 0 5%;
-    @include font_Open (600,12px);
+    @include fontOpen (600,12px);
   }
 
   .block-alert {
@@ -145,7 +145,7 @@ body {
     margin-left: 3%;
     letter-spacing: -0.02em;
     padding: 10px;
-    @include font_Open(normal,12px);
+    @include fontOpen(normal,12px);
   }
 
   .hapo-button-messager-link {
@@ -155,7 +155,7 @@ body {
     background-color: #3184F7;
     width: 276px;
     height: 37px;
-    @include font_Open(600,12px);
+    @include fontOpen(600,12px);
     &:hover {
       text-emphasis: none;
       opacity: 0.8;
@@ -184,6 +184,72 @@ body {
   background-image: linear-gradient(white, #E5E5E5);
 }
 
+.hapo-wrap-learn {
+  background: url("../images/background_but.png") no-repeat center/cover;
+
+  .hapo-content-learn {
+    padding-top: 150px;
+    @include fontUTM(bold, 60px, $main_color);
+  }
+
+  .btn-learn-link {
+    background-color: $main_color;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    -webkit-text-stroke-width: 1px;
+    width: 30%;
+    padding: 10px;
+    @include fontUTM(bold, 30px, #90AB26);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  a {
+    margin-bottom: 160px;
+  }
+}
+
+.hapo-wrap-statistic {
+  .hapo-statistic-header p {
+    border-radius: 3px;
+    margin: 110px auto 40px auto;
+    letter-spacing: -0.02em;
+    -webkit-text-stroke: 1px $color_txt;
+    @include fontUTM(bold , 80px, $color_txt);
+
+    &:after {
+      background-color: $color_link;
+      content: "";
+      display: block;
+      height: 6px;
+      margin: 0 auto 30px;
+      position: relative;
+      border-radius: 3px;
+    }
+  }
+
+  .hapo-statistic-body {
+    padding: 0 80px;
+
+    .hapo-statistic-name {
+      color: #505353;
+      -webkit-text-stroke: 1px #505353;
+    }
+
+    .hapo-statistic-name,
+    .hapo-statistic-data {
+      text-align: center;
+      font: normal bold 60px/74px UTM;
+      letter-spacing: -0.05em;
+    }
+
+    .hapo-statistic-data {
+      margin: 30px auto 80px auto;
+      color: $color_link;
+    }
+  }
+}
 footer {
   font-family: UTM;
   position: relative;
@@ -204,7 +270,7 @@ footer {
     p {
       margin-right: 70px;
       letter-spacing: -0.05em;
-      @include font_UTM(normal, 20px, #FFFFFF);
+      @include fontUTM(normal, 20px, $main_color);
     }
 
   } 
@@ -217,7 +283,7 @@ footer {
     a {
       letter-spacing: -0.05em;
       text-decoration: none;
-      @include font_UTM(bold,23px,#ffffff);
+      @include fontUTM(bold,23px,$main_color);
       &:hover {
         color: #bdd0ea;
         transform: scale(1.1);
@@ -232,7 +298,7 @@ footer {
       width: 60px;
       height: 60px;
       margin: auto 30px;
-      background-color: #FFFFFF;
+      background-color: $main_color;
       border-radius: 50%;
       &:hover {
         background-color: #bdd0ea;
@@ -262,8 +328,8 @@ footer {
       margin: 8px auto auto auto;
       text-align: center;    
       letter-spacing: -0.05em;
-      -webkit-text-stroke: 0.6px #fff;
-      @include font_UTM(normal, 20px, #ffffff)
+      -webkit-text-stroke: 0.6px $main_color;
+      @include fontUTM(normal, 20px, $main_color)
     }
   }
 }

@@ -31,11 +31,11 @@
 
       .hapo-txt {
         letter-spacing: -0.05em;
-        @include font_UTM(bold, 30px, #11114E);
+        @include fontUTM(bold, 30px, $color_txt);
       }
 
       .hapo-txt-title {
-        @include font_UTM (bold, 30px, #11114E);
+        @include fontUTM (bold, 30px, $color_txt);
       }
 
       .hapo-txt-dect p {
@@ -43,7 +43,7 @@
         padding: 10px 0;
         margin-top: 5px;
         letter-spacing: -0.05em;
-        @include font_UTM(normal, 16px, #505353);
+        @include fontUTM(normal, 16px, #505353);
       }
 
       .hapo-ow {
@@ -58,7 +58,7 @@
       .hapo-slide-button-link {
         padding: 10px 40px;
         height: 37px;
-        @include font_UTM(bold,16px,#ffffff);
+        @include fontUTM(bold,16px, $main_color);
         line-height: 35px;
       }
     }
@@ -76,6 +76,21 @@
     }
   }
 
+  .hapo-wrap-learn {
+    .hapo-content-learn {
+      font-size: 35px;
+      padding-top: 50px;
+    }
+
+    .btn-learn-link {
+      font-size: 20px;
+    }
+
+    a {
+      margin-bottom: 60px;
+    }
+  }
+
   footer {
     .container-content {
       padding-left: 40px;
@@ -90,7 +105,7 @@
 
     .hapo-footer-logo p {
       margin-right: 0;
-      @include font_UTM(normal, 15px, #FFFFFF);
+      @include fontUTM(normal, 15px, $main_color);
     }
 
     .hapo-nav-footer { 
@@ -99,7 +114,7 @@
       }
 
       a {
-        @include font_UTM(bold,18px,#ffffff);
+        @include fontUTM(bold,18px,$main_color);
       } 
     }
     .hapo-nav-footer-icon { 
@@ -126,7 +141,7 @@
       position: initial;
 
       p {
-        @include font_UTM(normal, 15px, #ffffff)
+        @include fontUTM(normal, 15px, $main_color)
       }
     }
 
@@ -152,7 +167,7 @@
         text-align: center;
         &:hover {
           color: $main_color;
-          background: #ffffff;
+          background: $main_color;
         }
       }
     }
@@ -169,11 +184,11 @@
 
       .hapo-txt {
         letter-spacing: -0.05em;
-        @include font_UTM(bold, 25px, #11114E);
+        @include fontUTM(bold, 25px, $color_txt);
       }
 
       .hapo-txt-title {
-        @include font_UTM (bold, 25px, #11114E);
+        @include fontUTM (bold, 25px, $color_txt);
       }
 
       .hapo-txt-dect p {
@@ -181,7 +196,7 @@
         height: 40px;
         padding: 5px 0;
         margin-top: 5px;
-        @include font_UTM(normal, 16px, #505353);
+        @include fontUTM(normal, 16px, #505353);
       }
 
       .hapo-ow {
@@ -196,9 +211,25 @@
       .hapo-slide-button-link {
         padding: 10px 60px;
         height: 46px;
-        @include font_UTM(bold,18px,#ffffff);
-        line-height: 45px;
+        font: normal bold 18px/45px $main_color;
       }
+    }
+  }
+
+
+  .hapo-wrap-learn {
+    .hapo-content-learn {
+      font-size: 23px;
+      padding-top: 30px;
+    }
+
+    .btn-learn-link {
+      font-size: 18px;
+      width: 60%;
+    }
+
+    a {
+      margin-bottom: 50px;
     }
   }
 

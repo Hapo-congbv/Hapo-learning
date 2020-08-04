@@ -7,14 +7,16 @@
   }
 }
 
-$main_color : #B2D235;
+$color_link : #B2D235;
+$main_color : #FFFFFF;
+$color_txt: #11114E;
 
 
-@mixin font_UTM($weight, $size, $color) {
+@mixin fontUTM($weight, $size, $color) {
   font: $weight $size UTM;
   color: $color;
 }
 
-@mixin font_Open($weight, $size) {
+@mixin fontOpen($weight, $size) {
   font: $weight $size Open Sans;
 }
