@@ -219,11 +219,11 @@ body {
     @include fontUTM(bold , 80px, #11114E);
 
     &:after {
-      background-color: #b2d235;
+      background-color: $main_color;
       content: "";
       display: block;
       height: 6px;
-      margin: 0px auto 30px;
+      margin: 0 auto 30px;
       position: relative;
       border-radius: 3px;
     }
@@ -246,7 +246,7 @@ body {
 
     .hapo-statistic-data {
       margin: 30px auto 80px auto;
-      color: #b2d235;
+      color: $main_color;
     }
   }
 }

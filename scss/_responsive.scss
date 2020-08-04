@@ -58,7 +58,7 @@
       .hapo-slide-button-link {
         padding: 10px 40px;
         height: 37px;
-        @include fontUTM(bold,16px,#ffffff);
+        @include fontUTM(bold,16px,$color_white);
         line-height: 35px;
       }
     }
@@ -105,7 +105,7 @@
 
     .hapo-footer-logo p {
       margin-right: 0;
-      @include fontUTM(normal, 15px, #FFFFFF);
+      @include fontUTM(normal, 15px, $color_white);
     }
 
     .hapo-nav-footer { 
@@ -114,7 +114,7 @@
       }
 
       a {
-        @include fontUTM(bold,18px,#FFFFFF);
+        @include fontUTM(bold,18px,$color_white);
       } 
     }
     .hapo-nav-footer-icon { 
@@ -141,7 +141,7 @@
       position: initial;
 
       p {
-        @include fontUTM(normal, 15px, #FFFFFF)
+        @include fontUTM(normal, 15px, $color_white)
       }
     }
 
@@ -167,7 +167,7 @@
         text-align: center;
         &:hover {
           color: $main_color;
-          background: #FFFFFF;
+          background: $color_white;
         }
       }
     }
@@ -211,7 +211,7 @@
       .hapo-slide-button-link {
         padding: 10px 60px;
         height: 46px;
-        font: normal bold 18px/45px #FFFFFF;
+        font: normal bold 18px/45px $color_white;
       }
     }
   }
