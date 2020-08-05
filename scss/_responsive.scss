@@ -91,6 +91,53 @@
     }
   }
 
+  .hapo-course {
+    .hapo-course-item {
+      .card-title {
+        font: normal bold 20px/25px UTM;
+        letter-spacing: -0.05em;
+        color: $color_link;
+      }
+
+      .hapo-item-ruby {
+        padding: 40px 10px;
+      }
+
+      .hapo-item-java {
+        padding: 5px;
+      }
+
+      .card-text {
+        padding: 10px;
+        letter-spacing: -0.05em;
+        margin-top: 20px;
+        @include fontUTM(bold, 14px, #505353);
+      }
+
+      .hapo-courses-btn {
+        font: normal bold 10px/20px UTM;
+      }        
+    }
+  }
+
+  .hapo-courses-other {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    p {
+      @include fontUTM (bold, 50px, $color_txt);
+    }
+  }
+
+  .all-courses {
+    letter-spacing: -0.02em;
+    padding: 50px 0 ;
+
+    .hapo-courses-link-all {
+      font-size: 28px;
+    }
+  }
+
   footer {
     .container-content {
       padding-left: 40px;
@@ -216,6 +263,53 @@
     }
   }
 
+  .hapo-course {
+    padding: 0 40px;
+
+    .hapo-course-item {
+      margin-left: 0;
+      margin-bottom: 30px;
+
+      .card-title {
+        font: normal bold 20px/25px UTM;
+        letter-spacing: -0.05em;
+        color: $color_link;
+        -webkit-text-stroke: 1px $color_link;
+      }
+      
+      .card-text {
+        @include fontUTM(bold, 14px, #505353);
+      }
+
+      .hapo-courses-btn {
+        padding: 10px 50px;
+        font: normal bold 18px/22px UTM;
+      }        
+    }
+  }
+
+  .hapo-courses-other {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .hapo-item-css,
+    .hapo-item-ruby,
+    .hapo-item-java {
+      padding: 30px !important;
+    }
+
+    p {
+      @include fontUTM (bold, 50px, $color_txt);
+    }
+  }
+
+  .all-courses {
+    margin-top: -40px;
+
+    .hapo-courses-link-all {
+      font-size: 22px;
+    }
+  }
 
   .hapo-wrap-learn {
     .hapo-content-learn {
@@ -248,8 +342,16 @@
       top: -25px;
     }
 
-    .hapo-nav-footer-icon .icon-mail {
-      font-size: large;
+    .hapo-nav-footer-icon {
+      a {
+        width: 40px;
+        height: 40px;
+        margin: auto 8px;
+      }
+      
+      .icon-mail {
+        font-size: large;
+      }
     }
 
     .hapo-copyright {
