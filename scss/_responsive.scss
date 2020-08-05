@@ -119,6 +119,7 @@
   .hapo-courses-other {
     margin-top: 50px;
     margin-bottom: 20px;
+    
     p {
       @include fontUTM (bold, 50px,$color_txt);
     }
