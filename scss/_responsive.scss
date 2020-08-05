@@ -99,15 +99,19 @@
         color: $color_link;
       }
 
+      .hapo-item-ruby {
+        padding: 40px 10px;
+      }
+
       .hapo-item-java {
-        height: 43%;
+        padding: 5px;
       }
 
       .card-text {
         padding: 10px;
         letter-spacing: -0.05em;
         margin-top: 20px;
-        @include fontUTM(bold,14px,#505353);
+        @include fontUTM(bold, 14px, #505353);
       }
 
       .hapo-courses-btn {
@@ -119,9 +123,9 @@
   .hapo-courses-other {
     margin-top: 50px;
     margin-bottom: 20px;
-    
+
     p {
-      @include fontUTM (bold, 50px,$color_txt);
+      @include fontUTM (bold, 50px, $color_txt);
     }
   }
 
@@ -274,7 +278,7 @@
       }
       
       .card-text {
-        @include fontUTM(bold,14px,#505353);
+        @include fontUTM(bold, 14px, #505353);
       }
 
       .hapo-courses-btn {
@@ -295,7 +299,7 @@
     }
 
     p {
-      @include fontUTM (bold, 50px,$color_txt);
+      @include fontUTM (bold, 50px, $color_txt);
     }
   }
 
