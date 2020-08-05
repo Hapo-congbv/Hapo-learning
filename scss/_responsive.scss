@@ -138,6 +138,37 @@
     }
   }
 
+   .hapo-wrap-inf {
+    .hapo-inf-content {
+      padding: 80px 0;
+
+      .hapo-inf-heading {
+        top: -35px;
+        display: block;
+        text-align: center;
+        font: normal bold 50px/61px UTM;
+      }
+
+      li {
+        margin-bottom: 20px;
+        font: 14px/20px UTM;
+      }
+    }
+
+    .hapo-inf-topleft {
+      transform: scale(0.6);
+      margin-top: -35px;
+      margin-left: -85px;
+    }
+
+    .hapo-inf-image-md {
+      padding: 0;
+      transform: scale(1.2);
+      top: 0;
+      right: 22px;
+    }
+  }
+
   footer {
     .container-content {
       padding-left: 40px;
@@ -308,6 +339,29 @@
 
     .hapo-courses-link-all {
       font-size: 22px;
+    }
+  }
+
+  .hapo-wrap-inf {
+    .hapo-inf-content {
+      .hapo-inf-heading {
+        top: 15px;
+        font: normal bold 40px/40px UTM;
+      }
+
+      .hapo-inf-image-md {
+        transform: scale(1);
+        top: 0;
+        right: 0;
+      }
+
+      .hapo-content li {
+        margin-bottom: 20px;
+      }
+
+      .hapo-inf-content {
+        margin-top: 20px;
+      }
     }
   }
 
