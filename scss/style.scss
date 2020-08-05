@@ -281,6 +281,40 @@ body {
   border-radius: 3px;
 }
 
+.hapo-wrap-inf {
+  background: url("../images/background_inf.png") no-repeat center/cover;
+  position: relative;
+
+ .hapo-inf-topleft {
+    position: absolute;
+    top: -222px;
+  }
+
+  .hapo-inf-heading {
+    color: white;
+    font: normal bold 70px/86px UTM;
+    margin-bottom: 20px;
+    position: relative;
+    top: 120px;
+  }
+  
+  .hapo-inf-image-md {
+    transform: scale(1.2);
+    position: relative;
+    margin-top: -5px;
+  }
+  
+  .container {
+    padding: 180px 0;
+  }
+
+  li {
+    margin: 17px 0 0 30px;
+    color: white;
+    font: 20px/25px UTM;
+  }
+}
+
 .hapo-wrap-learn {
   background: url("../images/background_but.png") no-repeat center/cover;
 
