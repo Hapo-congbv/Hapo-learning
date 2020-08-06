@@ -21,8 +21,8 @@ $(document).ready(function () {
         autoplaySpeed: 4000,
         pauseOnFocus: true,
         pauseOnHover: true,
-        prevArrow: $('.previous_icon'),
-        nextArrow: $('.next_icon'),
+        prevArrow: $('.previous-icon'),
+        nextArrow: $('.next-icon'),
 
         responsive: [
             {

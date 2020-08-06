@@ -418,7 +418,7 @@ body {
     top: -180px;
     color: #969494;
 
-    .previous_icon {
+    .previous-icon {
       cursor: pointer;
       background-color: $main_color;
       padding-left: 11px;
@@ -428,11 +428,11 @@ body {
       border: 0.5px solid #C4C4C4;
     }
 
-    .next_icon {
+    .next-icon {
       margin-left: -6px;
       padding-left: 9px;
       padding-right: 11px;
-      @extend .previous_icon;
+      @extend .previous-icon;
     }
   }
 
