@@ -645,6 +645,12 @@ footer .hapo-copyright {
         font: bold 18px UTM;
         color: #FFFFFF; }
 
+  .block-messenger {
+    right: 50px;
+    bottom: 75px; }
+    .block-messenger .messenger {
+      right: 15px; }
+
   .hapo-course {
     padding: 0 40px; }
     .hapo-course .hapo-course-item {
