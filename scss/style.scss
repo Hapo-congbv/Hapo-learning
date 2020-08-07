@@ -237,6 +237,11 @@ body {
       @include fontUTM(bold,14px,#505353);
     }
 
+    a:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
     .hapo-courses-btn {
       font: normal bold 20px/43px UTM;
       background: #b2d235;
