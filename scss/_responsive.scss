@@ -174,16 +174,11 @@
 
   .hapo-wrap-statistic {
     .hapo-statistic-header p {
-      margin: 25px auto;
+      margin: 25px auto 10px auto;
       @include fontUTM(bold , 50px, $color_txt);
     }
 
     .hapo-statistic-body {
-      .hapo-statistic-name {
-        color: #505353;
-        -webkit-text-stroke: 1px #505353;
-      }
-
       .hapo-statistic-name,
       .hapo-statistic-data {
         text-align: center;
@@ -191,7 +186,7 @@
       }
 
       .hapo-statistic-data {
-        margin: 20px auto 80px auto;
+        margin: 20px auto 50px auto;
         color: $color_link;
       }
     }
