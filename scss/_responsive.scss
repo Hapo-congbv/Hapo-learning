@@ -12,7 +12,7 @@
 
     li {
       margin-bottom: 15px;
-      margin: 0 20px;
+      margin: 7px 7px;
 
       a {
           margin: 0;
@@ -77,19 +77,16 @@
   }
 
   .hapo-wrap-learn {
-    .hapo-content-learn {
-      font-size: 35px;
-      padding-top: 50px;
-    }
+    padding: 8% 0;
 
-    .btn-learn-link {
-      font-size: 20px;
-    }
-
-    a {
-      margin-bottom: 60px;
-    }
+  .hapo-content-learn {
+    @include fontUTM(bold, 35px, $main_color);
   }
+
+  .btn-learn-link {
+    @include fontUTM(bold, 18px, #90AB26);
+  }
+}
 
   .hapo-course {
     .hapo-course-item {
@@ -158,7 +155,7 @@
     .hapo-inf-topleft {
       transform: scale(0.6);
       margin-top: -35px;
-      margin-left: -85px;
+      margin-left: -100px;
     }
 
     .hapo-inf-image-md {
@@ -175,11 +172,35 @@
     }
   }
 
+  .hapo-wrap-statistic {
+    .hapo-statistic-header p {
+      margin: 25px auto;
+      @include fontUTM(bold , 50px, $color_txt);
+    }
+
+    .hapo-statistic-body {
+      .hapo-statistic-name {
+        color: #505353;
+        -webkit-text-stroke: 1px #505353;
+      }
+
+      .hapo-statistic-name,
+      .hapo-statistic-data {
+        text-align: center;
+        font: normal bold 40px/49px UTM;
+      }
+
+      .hapo-statistic-data {
+        margin: 20px auto 80px auto;
+        color: $color_link;
+      }
+    }
+  }
+
+
   footer {
     .container-content {
-      padding-left: 40px;
-      padding-right: 20px;
-      transform: translateY(10%);
+      padding: 30px 50px 10px 50px;
     }
 
     .hapo-footer-logo img {
@@ -202,7 +223,7 @@
       } 
     }
     .hapo-nav-footer-icon { 
-      transform: translateY(70%);
+      margin-top: -30px;
 
       a {
         width: 40px;
@@ -250,7 +271,7 @@
       a {
         text-align: center;
         &:hover {
-          color: $main_color;
+          color: $color_link;
           background: $main_color;
         }
       }
@@ -263,7 +284,7 @@
 
     .hapo-slide-dect {
       font-family: UTM;
-      transform: translateY(120%);
+      transform: translateY(150%);
       margin: 0 63px;
 
       .hapo-txt {
@@ -289,13 +310,13 @@
       }
 
       .hapo-slide-button {
-        transform: translateY(30%);
+        transform: translateY(75%);
       }
 
       .hapo-slide-button-link {
-        padding: 10px 60px;
-        height: 46px;
-        font: normal bold 18px/45px $main_color;
+        padding: 15px 62px;
+        -webkit-text-stroke: 1px $main_color;
+        @include fontUTM(bold, 18px, $main_color);
       }
     }
   }
@@ -373,17 +394,11 @@
 
   .hapo-wrap-learn {
     .hapo-content-learn {
-      font-size: 23px;
-      padding-top: 30px;
+      @include fontUTM(bold, 23px, $main_color);
     }
 
     .btn-learn-link {
-      font-size: 18px;
-      width: 60%;
-    }
-
-    a {
-      margin-bottom: 50px;
+      @include fontUTM(bold, 18px, #90AB26);
     }
   }
 
@@ -427,13 +442,29 @@
 
   }
 
+  .hapo-wrap-statistic {
+    .hapo-statistic-header p {
+      margin: 25px auto;
+      @include fontUTM(bold , 40px, $color_txt);
+    }
+
+
+    .hapo-statistic-body {
+      .hapo-statistic-data {
+        margin: 30px auto;
+        color: $color_link;
+      }
+    }
+  }
+
+
   footer {
     padding: 40px;
-
-    .hapo-footer-menu {
-      top: -20px;
-    }    
-
+    
+    .container-content {
+      padding: 30px 25px 20px 40px;
+    }
+  
     .hapo-nav-footer li {
       margin-bottom: 24px;
     }
@@ -443,6 +474,8 @@
     }
 
     .hapo-nav-footer-icon {
+      margin-top: 0;
+
       a {
         width: 40px;
         height: 40px;
@@ -452,10 +485,6 @@
       .icon-mail {
         font-size: large;
       }
-    }
-
-    .hapo-copyright {
-      transform: translateY(100%);
     }
   }
 
