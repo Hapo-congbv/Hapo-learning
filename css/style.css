@@ -617,9 +617,9 @@ footer .hapo-copyright {
     width: 100%; }
     .hapo-wrap-banner .hapo-slide-dect {
       font-family: UTM;
-      -webkit-transform: translateY(150%);
-              transform: translateY(150%);
-      margin: 0 63px; }
+      -webkit-transform: translateY(140%);
+              transform: translateY(140%);
+      margin: 0 50px; }
       .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
         font: normal 25px UTM;
         color: #11114E; }
