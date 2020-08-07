@@ -55,7 +55,7 @@ body {
     margin-left: 40px; }
     .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
       letter-spacing: -0.05em;
-      font: bold 50px UTM;
+      font: normal 50px UTM;
       color: #11114E; }
     .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
       -webkit-text-stroke-width: 2px;
@@ -458,8 +458,7 @@ footer .hapo-copyright {
               transform: translateY(45%);
       margin-left: 30px; }
       .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
-        letter-spacing: -0.05em;
-        font: bold 30px UTM;
+        font: normal 30px UTM;
         color: #11114E; }
       .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
         font: bold 30px UTM;
@@ -622,8 +621,7 @@ footer .hapo-copyright {
               transform: translateY(150%);
       margin: 0 63px; }
       .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
-        letter-spacing: -0.05em;
-        font: bold 25px UTM;
+        font: normal 25px UTM;
         color: #11114E; }
       .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
         font: bold 25px UTM;

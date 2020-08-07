@@ -52,7 +52,7 @@ body {
 
     .hapo-txt {
       letter-spacing: -0.05em;
-      @include fontUTM(bold, 50px, $color_txt);
+      @include fontUTM(normal, 50px, $color_txt);
     }
 
     .hapo-txt-title {
