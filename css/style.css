@@ -563,8 +563,8 @@ footer .hapo-copyright {
     padding: 0;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    top: -9px;
-    right: 22px; }
+    top: 50px;
+    right: 15px; }
 
   .hapo-wrap-feedback .hapo-titletext-feedback {
     padding: 10px 0; }
@@ -678,12 +678,10 @@ footer .hapo-copyright {
     margin-left: 0;
     margin-bottom: 30px; }
     .hapo-course .hapo-course-item .hapo-course-header {
-      padding: 17%;
+      padding: 10%;
       height: 200px; }
-    .hapo-course .hapo-course-item .hapo-item-laravel {
+    .hapo-course .hapo-course-item .hapo-item-css {
       padding: 15%; }
-    .hapo-course .hapo-course-item .hapo-item-java {
-      padding: 5%; }
     .hapo-course .hapo-course-item .card-title {
       font: normal bold 20px/25px UTM;
       letter-spacing: -0.05em;

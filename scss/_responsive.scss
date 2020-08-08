@@ -168,8 +168,8 @@
     .hapo-inf-image-md {
       padding: 0;
       transform: scale(1.2);
-      top: -9px;
-      right: 22px;
+      top: 50px;
+      right: 15px;
     }
   }
 
@@ -348,17 +348,17 @@
       margin-bottom: 30px;
 
       .hapo-course-header {
-        padding: 17%;
+        padding: 10%;
         height: 200px;
       }
 
-      .hapo-item-laravel {
+      .hapo-item-css {
         padding: 15%;
       }
 
-      .hapo-item-java {
-        padding: 5%;
-      }
+      // .hapo-item-java {
+      //   padding: 5%;
+      // }
 
 
       .card-title {
