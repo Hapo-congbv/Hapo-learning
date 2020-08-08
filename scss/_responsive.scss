@@ -21,12 +21,9 @@
   }
 
   .hapo-wrap-banner {
-    height: 300px;
-    width: 100%;
-
     .hapo-slide-dect {
       font-family: UTM;
-      transform: translateY(45%);
+      padding: 80px 0;
       margin-left: 30px;
 
       .hapo-txt {
@@ -87,27 +84,34 @@
   }
 }
 
+  .hapo-course-all {
+    padding: 0 5px;
+  }
+
   .hapo-course {
     .hapo-course-item {
+      margin: 0 10px;
+
       .card-title {
         font: normal bold 20px/25px UTM;
         letter-spacing: -0.05em;
         color: $color_link;
       }
 
-      .hapo-item-ruby {
-        padding: 40px 10px;
+      .hapo-course-header {
+        padding: 12%;
+        height: 150px;
       }
 
-      .hapo-item-java {
-        padding: 5px;
-      }
 
       .card-text {
-        padding: 10px;
-        letter-spacing: -0.05em;
-        margin-top: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
         @include fontUTM(bold, 14px, #505353);
+        letter-spacing: -0.05em;
       }
 
       .hapo-courses-btn {
@@ -139,10 +143,14 @@
       padding: 80px 0;
 
       .hapo-inf-heading {
-        top: -35px;
+        top: -5px;
         display: block;
         text-align: center;
         font: normal bold 50px/61px UTM;
+      }
+
+      .hapo-content {
+        top: 45px;
       }
 
       li {
@@ -160,7 +168,7 @@
     .hapo-inf-image-md {
       padding: 0;
       transform: scale(1.2);
-      top: 0;
+      top: -9px;
       right: 22px;
     }
   }
@@ -182,6 +190,8 @@
       .hapo-statistic-data {
         text-align: center;
         font: normal bold 40px/49px UTM;
+        letter-spacing: -0.05em;
+
       }
 
       .hapo-statistic-data {
@@ -203,7 +213,7 @@
     }
 
     .hapo-footer-logo p {
-      margin-right: 0;
+      margin-right: -10px;
       @include fontUTM(normal, 15px, $main_color);
     }
 
@@ -216,6 +226,7 @@
         @include fontUTM(bold,18px,$main_color);
       } 
     }
+
     .hapo-nav-footer-icon { 
       margin-top: -30px;
 
@@ -226,8 +237,8 @@
       }
 
       img {
-        width: 12px;
-        height: 26px;
+        width: 100%;
+        height: auto;
       }
 
       .icon-mail {
@@ -273,13 +284,10 @@
   }
 
   .hapo-wrap-banner {
-    height: 200px;
-    width: 100%;
-
     .hapo-slide-dect {
-      font-family: UTM;
-      transform: translateY(140%);
-      margin: 0 50px;
+      padding: 5px 0;
+      transform: translateY(100%);
+      margin-left: 0;
 
       .hapo-txt {
         @include fontUTM(normal, 25px, $color_txt);
@@ -289,11 +297,16 @@
         @include fontUTM (bold, 25px, $color_txt);
       }
 
+      .hapo-txt,
+      .hapo-txt-title,
+      .hapo-txt-dect {
+        margin-left: 30px;
+      }
+
       .hapo-txt-dect p {
         letter-spacing: -0.05em;
-        height: 40px;
         padding: 5px 0;
-        margin-top: 5px;
+        margin-bottom: 20px;
         @include fontUTM(normal, 16px, #505353);
       }
 
@@ -303,13 +316,15 @@
       }
 
       .hapo-slide-button {
-        transform: translateY(75%);
+        display: flex;
+        justify-content: center;
       }
 
       .hapo-slide-button-link {
-        padding: 15px 62px;
+        padding: 25px 60px;
         -webkit-text-stroke: 1px $main_color;
         @include fontUTM(bold, 18px, $main_color);
+        line-height: 3px;
       }
     }
   }
@@ -323,13 +338,28 @@
     }
   }
 
-
   .hapo-course {
-    padding: 0 40px;
+    .hapo-course-all {
+      padding: 0 40px;
+    }
 
     .hapo-course-item {
       margin-left: 0;
       margin-bottom: 30px;
+
+      .hapo-course-header {
+        padding: 17%;
+        height: 200px;
+      }
+
+      .hapo-item-laravel {
+        padding: 15%;
+      }
+
+      .hapo-item-java {
+        padding: 5%;
+      }
+
 
       .card-title {
         font: normal bold 20px/25px UTM;
@@ -343,15 +373,14 @@
       }
 
       .hapo-courses-btn {
-        padding: 10px 50px;
+        padding: 5% 12%;
         font: normal bold 18px/22px UTM;
       }        
     }
   }
 
   .hapo-courses-other {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 
     .hapo-item-css,
     .hapo-item-ruby,
@@ -360,23 +389,39 @@
     }
 
     p {
-      @include fontUTM (bold, 50px, $color_txt);
+      @include fontUTM (bold, 40px, $color_txt);
     }
   }
 
   .all-courses {
-    margin-top: -40px;
+    margin-top: -60px;
+    margin-bottom: 30px;
 
     .hapo-courses-link-all {
       font-size: 22px;
+      &:hover {
+        font-size: 25px;
+      }
+
+      img {
+        width: 31px;
+        height: 16px;
+      }
     }
   }
+  
 
   .hapo-wrap-inf {
     .hapo-inf-content {
+      padding: 45px 0;
+
       .hapo-inf-heading {
         top: 15px;
         font: normal bold 40px/40px UTM;
+      }
+
+      .hapo-content {
+        top: 25px;
       }
 
       .hapo-inf-image-md {
@@ -449,6 +494,7 @@
     .hapo-statistic-header p {
       margin: 25px auto;
       @include fontUTM(bold , 40px, $color_txt);
+      letter-spacing: -0.02em;
     }
 
 
@@ -465,7 +511,7 @@
     padding: 40px;
     
     .container-content {
-      padding: 30px 25px 20px 40px;
+      padding: 30px 10px 30px 30px;
     }
   
     .hapo-nav-footer li {
@@ -480,8 +526,6 @@
       margin-top: 0;
 
       a {
-        width: 40px;
-        height: 40px;
         margin: auto 8px;
       }
       

@@ -34,6 +34,10 @@ body {
   padding: 0;
   margin: 0; }
 
+header .img-logo {
+  width: 340px;
+  height: 70px; }
+
 #sibarNavbar li a {
   font: normal bold 16px/22px Open Sans;
   color: #505353;
@@ -45,13 +49,10 @@ body {
     background: #B2D235; }
 
 .hapo-wrap-banner {
-  background: url("../images/hapo-learn-banner.png") no-repeat center/cover;
-  position: relative;
-  height: 655px; }
+  background: url("../images/hapo-learn-banner.png") no-repeat center/cover; }
   .hapo-wrap-banner .hapo-slide-dect {
     font-family: UTM;
-    -webkit-transform: translateY(70%);
-            transform: translateY(70%);
+    padding: 290px 0 180px 0;
     margin-left: 40px; }
     .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
       letter-spacing: -0.05em;
@@ -64,8 +65,8 @@ body {
     .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect p {
       letter-spacing: -0.05em;
       height: 50px;
-      width: 249px;
       margin-top: 10px;
+      margin-bottom: 40px;
       font: normal 20px UTM;
       color: #505353; }
     .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button {
@@ -174,7 +175,8 @@ body {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
   .hapo-course .hapo-course-item .hapo-course-header {
     background-color: #3F6185;
-    height: 45%;
+    height: 200px;
+    padding: 10%;
     -o-object-fit: contain;
        object-fit: contain;
     border-radius: 15px 15px 0 0; }
@@ -183,19 +185,23 @@ body {
   .hapo-course .hapo-course-item .hapo-item-php {
     background-color: #556598; }
   .hapo-course .hapo-course-item .hapo-item-css {
+    padding: 15%;
     background-color: #24ABE2; }
   .hapo-course .hapo-course-item .hapo-item-ruby {
     background-color: #e14e40; }
   .hapo-course .hapo-course-item .hapo-item-java {
+    padding: 5%;
     background-color: #1B75BB; }
   .hapo-course .hapo-course-item .card-title {
     font: normal bold 30px/37px UTM;
     letter-spacing: -0.05em;
-    color: #B2D235; }
+    color: #B2D235;
+    -webkit-text-stroke-width: 1px; }
   .hapo-course .hapo-course-item .card-text {
     padding: 10px;
     letter-spacing: -0.05em;
     margin-top: 20px;
+    -webkit-text-stroke-width: 0.7px;
     font: bold 14px UTM;
     color: #505353; }
   .hapo-course .hapo-course-item a:hover {
@@ -208,7 +214,8 @@ body {
     color: white;
     margin: 0;
     -webkit-box-shadow: inset 0 1.5px 2px #6F8710;
-            box-shadow: inset 0 1.5px 2px #6F8710; }
+            box-shadow: inset 0 1.5px 2px #6F8710;
+    -webkit-text-stroke-width: 1px; }
 
 .hapo-courses-other {
   margin-top: 80px;
@@ -242,6 +249,8 @@ body {
 .hapo-wrap-inf {
   background: url("../images/background_inf.png") no-repeat center/cover;
   position: relative; }
+  .hapo-wrap-inf .container {
+    padding: 90px 0; }
   .hapo-wrap-inf .hapo-inf-topleft {
     position: absolute;
     top: -222px;
@@ -251,14 +260,15 @@ body {
     font: normal bold 70px/86px UTM;
     margin-bottom: 20px;
     position: relative;
-    top: 120px; }
+    top: 180px; }
+  .hapo-wrap-inf .hapo-inf-body .hapo-content {
+    position: relative;
+    top: 85px; }
   .hapo-wrap-inf .hapo-inf-image-md {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     position: relative;
-    margin-top: -5px; }
-  .hapo-wrap-inf .container {
-    padding: 180px 0; }
+    margin-top: -20px; }
   .hapo-wrap-inf li {
     margin: 17px 0 0 30px;
     color: white;
@@ -410,14 +420,14 @@ footer .hapo-nav-footer-icon {
   footer .hapo-nav-footer-icon a {
     width: 60px;
     height: 60px;
-    margin: auto 30px;
+    margin: auto 15px;
     background-color: #FFFFFF;
     border-radius: 50%; }
     footer .hapo-nav-footer-icon a:hover {
       background-color: #bdd0ea; }
   footer .hapo-nav-footer-icon img {
-    width: 15px;
-    height: 32px; }
+    width: 100%;
+    height: auto; }
   footer .hapo-nav-footer-icon .icon-mail {
     font-weight: bold;
     color: #505353;
@@ -449,39 +459,35 @@ footer .hapo-copyright {
       #sibarNavbar li a {
         margin: 0; }
 
-  .hapo-wrap-banner {
-    height: 300px;
-    width: 100%; }
-    .hapo-wrap-banner .hapo-slide-dect {
-      font-family: UTM;
-      -webkit-transform: translateY(45%);
-              transform: translateY(45%);
-      margin-left: 30px; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
-        font: normal 30px UTM;
-        color: #11114E; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
-        font: bold 30px UTM;
-        color: #11114E; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect p {
-        height: 40px;
-        padding: 10px 0;
-        margin-top: 5px;
-        letter-spacing: -0.05em;
-        font: normal 16px UTM;
-        color: #505353; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-ow {
-        width: 34px;
-        height: 34px; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button {
-        -webkit-transform: translateY(30%);
-                transform: translateY(30%); }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button-link {
-        padding: 10px 40px;
-        height: 37px;
-        font: bold 16px UTM;
-        color: #FFFFFF;
-        line-height: 35px; }
+  .hapo-wrap-banner .hapo-slide-dect {
+    font-family: UTM;
+    padding: 80px 0;
+    margin-left: 30px; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
+      font: normal 30px UTM;
+      color: #11114E; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
+      font: bold 30px UTM;
+      color: #11114E; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect p {
+      height: 40px;
+      padding: 10px 0;
+      margin-top: 5px;
+      letter-spacing: -0.05em;
+      font: normal 16px UTM;
+      color: #505353; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-ow {
+      width: 34px;
+      height: 34px; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button {
+      -webkit-transform: translateY(30%);
+              transform: translateY(30%); }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button-link {
+      padding: 10px 40px;
+      height: 37px;
+      font: bold 16px UTM;
+      color: #FFFFFF;
+      line-height: 35px; }
 
   .block-messenger .messenger {
     width: 50px;
@@ -499,22 +505,29 @@ footer .hapo-copyright {
       font: bold 18px UTM;
       color: #90AB26; }
 
-  .hapo-course .hapo-course-item .card-title {
-    font: normal bold 20px/25px UTM;
-    letter-spacing: -0.05em;
-    color: #B2D235; }
-  .hapo-course .hapo-course-item .hapo-item-ruby {
-    padding: 40px 10px; }
-  .hapo-course .hapo-course-item .hapo-item-java {
-    padding: 5px; }
-  .hapo-course .hapo-course-item .card-text {
-    padding: 10px;
-    letter-spacing: -0.05em;
-    margin-top: 20px;
-    font: bold 14px UTM;
-    color: #505353; }
-  .hapo-course .hapo-course-item .hapo-courses-btn {
-    font: normal bold 10px/20px UTM; }
+  .hapo-course-all {
+    padding: 0 5px; }
+
+  .hapo-course .hapo-course-item {
+    margin: 0 10px; }
+    .hapo-course .hapo-course-item .card-title {
+      font: normal bold 20px/25px UTM;
+      letter-spacing: -0.05em;
+      color: #B2D235; }
+    .hapo-course .hapo-course-item .hapo-course-header {
+      padding: 12%;
+      height: 150px; }
+    .hapo-course .hapo-course-item .card-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font: bold 14px UTM;
+      color: #505353;
+      letter-spacing: -0.05em; }
+    .hapo-course .hapo-course-item .hapo-courses-btn {
+      font: normal bold 10px/20px UTM; }
 
   .hapo-courses-other {
     margin-top: 50px;
@@ -532,10 +545,12 @@ footer .hapo-copyright {
   .hapo-wrap-inf .hapo-inf-content {
     padding: 80px 0; }
     .hapo-wrap-inf .hapo-inf-content .hapo-inf-heading {
-      top: -35px;
+      top: -5px;
       display: block;
       text-align: center;
       font: normal bold 50px/61px UTM; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-content {
+      top: 45px; }
     .hapo-wrap-inf .hapo-inf-content li {
       margin-bottom: 20px;
       font: 14px/20px UTM; }
@@ -548,7 +563,7 @@ footer .hapo-copyright {
     padding: 0;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    top: 0;
+    top: -9px;
     right: 22px; }
 
   .hapo-wrap-feedback .hapo-titletext-feedback {
@@ -561,7 +576,8 @@ footer .hapo-copyright {
   .hapo-wrap-statistic .hapo-statistic-body .hapo-statistic-name,
   .hapo-wrap-statistic .hapo-statistic-body .hapo-statistic-data {
     text-align: center;
-    font: normal bold 40px/49px UTM; }
+    font: normal bold 40px/49px UTM;
+    letter-spacing: -0.05em; }
   .hapo-wrap-statistic .hapo-statistic-body .hapo-statistic-data {
     margin: 20px auto 50px auto;
     color: #B2D235; }
@@ -572,7 +588,7 @@ footer .hapo-copyright {
     width: 170px;
     height: 35px; }
   footer .hapo-footer-logo p {
-    margin-right: 0;
+    margin-right: -10px;
     font: normal 15px UTM;
     color: #FFFFFF; }
   footer .hapo-nav-footer li {
@@ -587,8 +603,8 @@ footer .hapo-copyright {
       height: 40px;
       margin: auto 15px; }
     footer .hapo-nav-footer-icon img {
-      width: 12px;
-      height: 26px; }
+      width: 100%;
+      height: auto; }
     footer .hapo-nav-footer-icon .icon-mail {
       font-size: x-large; }
   footer .hapo-copyright {
@@ -612,38 +628,43 @@ footer .hapo-copyright {
           color: #B2D235;
           background: #FFFFFF; }
 
-  .hapo-wrap-banner {
-    height: 200px;
-    width: 100%; }
-    .hapo-wrap-banner .hapo-slide-dect {
-      font-family: UTM;
-      -webkit-transform: translateY(140%);
-              transform: translateY(140%);
-      margin: 0 50px; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
-        font: normal 25px UTM;
-        color: #11114E; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
-        font: bold 25px UTM;
-        color: #11114E; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect p {
-        letter-spacing: -0.05em;
-        height: 40px;
-        padding: 5px 0;
-        margin-top: 5px;
-        font: normal 16px UTM;
-        color: #505353; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-ow {
-        width: 25px;
-        height: 25px; }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button {
-        -webkit-transform: translateY(75%);
-                transform: translateY(75%); }
-      .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button-link {
-        padding: 15px 62px;
-        -webkit-text-stroke: 1px #FFFFFF;
-        font: bold 18px UTM;
-        color: #FFFFFF; }
+  .hapo-wrap-banner .hapo-slide-dect {
+    padding: 5px 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    margin-left: 0; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt {
+      font: normal 25px UTM;
+      color: #11114E; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title {
+      font: bold 25px UTM;
+      color: #11114E; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt,
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-title,
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect {
+      margin-left: 30px; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-txt-dect p {
+      letter-spacing: -0.05em;
+      padding: 5px 0;
+      margin-bottom: 20px;
+      font: normal 16px UTM;
+      color: #505353; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-ow {
+      width: 25px;
+      height: 25px; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .hapo-wrap-banner .hapo-slide-dect .hapo-slide-button-link {
+      padding: 25px 60px;
+      -webkit-text-stroke: 1px #FFFFFF;
+      font: bold 18px UTM;
+      color: #FFFFFF;
+      line-height: 3px; }
 
   .block-messenger {
     right: 50px;
@@ -651,51 +672,67 @@ footer .hapo-copyright {
     .block-messenger .messenger {
       right: 15px; }
 
-  .hapo-course {
+  .hapo-course .hapo-course-all {
     padding: 0 40px; }
-    .hapo-course .hapo-course-item {
-      margin-left: 0;
-      margin-bottom: 30px; }
-      .hapo-course .hapo-course-item .card-title {
-        font: normal bold 20px/25px UTM;
-        letter-spacing: -0.05em;
-        color: #B2D235;
-        -webkit-text-stroke: 1px #B2D235; }
-      .hapo-course .hapo-course-item .card-text {
-        font: bold 14px UTM;
-        color: #505353; }
-      .hapo-course .hapo-course-item .hapo-courses-btn {
-        padding: 10px 50px;
-        font: normal bold 18px/22px UTM; }
+  .hapo-course .hapo-course-item {
+    margin-left: 0;
+    margin-bottom: 30px; }
+    .hapo-course .hapo-course-item .hapo-course-header {
+      padding: 17%;
+      height: 200px; }
+    .hapo-course .hapo-course-item .hapo-item-laravel {
+      padding: 15%; }
+    .hapo-course .hapo-course-item .hapo-item-java {
+      padding: 5%; }
+    .hapo-course .hapo-course-item .card-title {
+      font: normal bold 20px/25px UTM;
+      letter-spacing: -0.05em;
+      color: #B2D235;
+      -webkit-text-stroke: 1px #B2D235; }
+    .hapo-course .hapo-course-item .card-text {
+      font: bold 14px UTM;
+      color: #505353; }
+    .hapo-course .hapo-course-item .hapo-courses-btn {
+      padding: 5% 12%;
+      font: normal bold 18px/22px UTM; }
 
   .hapo-courses-other {
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    margin: 50px 0; }
     .hapo-courses-other .hapo-item-css,
     .hapo-courses-other .hapo-item-ruby,
     .hapo-courses-other .hapo-item-java {
       padding: 30px !important; }
     .hapo-courses-other p {
-      font: bold 50px UTM;
+      font: bold 40px UTM;
       color: #11114E; }
 
   .all-courses {
-    margin-top: -40px; }
+    margin-top: -60px;
+    margin-bottom: 30px; }
     .all-courses .hapo-courses-link-all {
       font-size: 22px; }
+      .all-courses .hapo-courses-link-all:hover {
+        font-size: 25px; }
+      .all-courses .hapo-courses-link-all img {
+        width: 31px;
+        height: 16px; }
 
-  .hapo-wrap-inf .hapo-inf-content .hapo-inf-heading {
-    top: 15px;
-    font: normal bold 40px/40px UTM; }
-  .hapo-wrap-inf .hapo-inf-content .hapo-inf-image-md {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0;
-    right: 0; }
-  .hapo-wrap-inf .hapo-inf-content .hapo-content li {
-    margin-bottom: 20px; }
-  .hapo-wrap-inf .hapo-inf-content .hapo-inf-content {
-    margin-top: 20px; }
+  .hapo-wrap-inf .hapo-inf-content {
+    padding: 45px 0; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-inf-heading {
+      top: 15px;
+      font: normal bold 40px/40px UTM; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-content {
+      top: 25px; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-inf-image-md {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      top: 0;
+      right: 0; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-content li {
+      margin-bottom: 20px; }
+    .hapo-wrap-inf .hapo-inf-content .hapo-inf-content {
+      margin-top: 20px; }
 
   .hapo-wrap-learn .hapo-content-learn {
     font: bold 23px UTM;
@@ -731,7 +768,8 @@ footer .hapo-copyright {
   .hapo-wrap-statistic .hapo-statistic-header p {
     margin: 25px auto;
     font: bold 40px UTM;
-    color: #11114E; }
+    color: #11114E;
+    letter-spacing: -0.02em; }
   .hapo-wrap-statistic .hapo-statistic-body .hapo-statistic-data {
     margin: 30px auto;
     color: #B2D235; }
@@ -739,7 +777,7 @@ footer .hapo-copyright {
   footer {
     padding: 40px; }
     footer .container-content {
-      padding: 30px 25px 20px 40px; }
+      padding: 30px 10px 30px 30px; }
     footer .hapo-nav-footer li {
       margin-bottom: 24px; }
     footer .hapo-footer-contact {
@@ -747,8 +785,6 @@ footer .hapo-copyright {
     footer .hapo-nav-footer-icon {
       margin-top: 0; }
       footer .hapo-nav-footer-icon a {
-        width: 40px;
-        height: 40px;
         margin: auto 8px; }
       footer .hapo-nav-footer-icon .icon-mail {
         font-size: large; }
