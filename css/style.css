@@ -588,7 +588,7 @@ footer .hapo-copyright {
     width: 170px;
     height: 35px; }
   footer .hapo-footer-logo p {
-    margin-right: -10px;
+    margin-right: -15px;
     font: normal 15px UTM;
     color: #FFFFFF; }
   footer .hapo-nav-footer li {
@@ -775,7 +775,7 @@ footer .hapo-copyright {
   footer {
     padding: 40px; }
     footer .container-content {
-      padding: 30px 10px 30px 30px; }
+      padding: 30px; }
     footer .hapo-nav-footer li {
       margin-bottom: 24px; }
     footer .hapo-footer-contact {
@@ -783,7 +783,11 @@ footer .hapo-copyright {
     footer .hapo-nav-footer-icon {
       margin-top: 0; }
       footer .hapo-nav-footer-icon a {
-        margin: auto 8px; }
+        margin: auto 4px;
+        width: 35px;
+        height: 35px; }
+      footer .hapo-nav-footer-icon img {
+        width: 90%; }
       footer .hapo-nav-footer-icon .icon-mail {
         font-size: large; }
 

@@ -213,7 +213,7 @@
     }
 
     .hapo-footer-logo p {
-      margin-right: -10px;
+      margin-right: -15px;
       @include fontUTM(normal, 15px, $main_color);
     }
 
@@ -511,7 +511,7 @@
     padding: 40px;
     
     .container-content {
-      padding: 30px 10px 30px 30px;
+      padding: 30px;
     }
   
     .hapo-nav-footer li {
@@ -526,7 +526,13 @@
       margin-top: 0;
 
       a {
-        margin: auto 8px;
+        margin: auto 4px;
+        width: 35px;
+        height: 35px;
+      }
+
+      img {
+        width: 90%;
       }
       
       .icon-mail {
