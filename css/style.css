@@ -550,7 +550,7 @@ footer .hapo-copyright {
       text-align: center;
       font: normal bold 50px/61px UTM; }
     .hapo-wrap-inf .hapo-inf-content .hapo-content {
-      top: 45px; }
+      top: 30px; }
     .hapo-wrap-inf .hapo-inf-content li {
       margin-bottom: 20px;
       font: 14px/20px UTM; }
@@ -561,10 +561,11 @@ footer .hapo-copyright {
     margin-left: -100px; }
   .hapo-wrap-inf .hapo-inf-image-md {
     padding: 0;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
     top: 50px;
-    right: 15px; }
+    right: 15px;
+    height: 279px; }
 
   .hapo-wrap-feedback .hapo-titletext-feedback {
     padding: 10px 0; }
