@@ -445,11 +445,9 @@ footer .hapo-copyright {
     color: #FFFFFF; }
 
 @media (max-width: 768px) {
-  .hapo-wrap-header .img-logo {
+  header .img-logo {
     width: 300px;
-    height: 61.74px;
-    -webkit-transform: translateY(-5%);
-            transform: translateY(-5%); }
+    height: 61.74px; }
 
   #sibarNavbar {
     padding: 5px 0; }
@@ -615,8 +613,8 @@ footer .hapo-copyright {
       font: normal 15px UTM;
       color: #FFFFFF; } }
 @media only screen and (max-width: 425px) {
-  .hapo-wrap-header .img-logo {
-    height: 50px;
+  header .img-logo {
+    height: 40px;
     width: 150px; }
 
   #sibarNavbar {
