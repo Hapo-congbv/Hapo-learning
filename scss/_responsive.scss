@@ -330,11 +330,18 @@
   }
 
   .block-messenger {
-    right: 50px;
-    bottom: 75px;
+    right: 6%;
+    bottom: 15%;
 
     .messenger {
-      right: 15px;
+      width: 40px;
+      height: 40px;
+      right: 2%;
+
+      .icon-mes {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 

@@ -666,10 +666,15 @@ footer .hapo-copyright {
       line-height: 3px; }
 
   .block-messenger {
-    right: 50px;
-    bottom: 75px; }
+    right: 6%;
+    bottom: 15%; }
     .block-messenger .messenger {
-      right: 15px; }
+      width: 40px;
+      height: 40px;
+      right: 2%; }
+      .block-messenger .messenger .icon-mes {
+        width: 30px;
+        height: 30px; }
 
   .hapo-course .hapo-course-all {
     padding: 0 40px; }
