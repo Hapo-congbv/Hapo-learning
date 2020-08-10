@@ -513,12 +513,7 @@ footer {
 
     a {
       letter-spacing: -0.05em;
-      text-decoration: none;
       @include fontUTM(bold,23px,$main_color);
-      &:hover {
-        color: #bdd0ea;
-        transform: scale(1.1);
-      }
     }
   }
 

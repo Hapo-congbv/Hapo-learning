@@ -397,13 +397,8 @@ footer .hapo-nav-footer li {
   margin-bottom: 25px; }
 footer .hapo-nav-footer a {
   letter-spacing: -0.05em;
-  text-decoration: none;
   font: bold 23px UTM;
   color: #FFFFFF; }
-  footer .hapo-nav-footer a:hover {
-    color: #bdd0ea;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
 footer .hapo-nav-footer-icon {
   margin-top: -60px; }
   footer .hapo-nav-footer-icon a {
