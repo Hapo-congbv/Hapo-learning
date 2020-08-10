@@ -615,7 +615,7 @@ footer .hapo-copyright {
   #sibarNavbar {
     padding: 5px 10px; }
     #sibarNavbar li {
-      margin: 15px; }
+      margin: 15px auto 5px auto; }
       #sibarNavbar li a {
         text-align: center; }
         #sibarNavbar li a:hover {
