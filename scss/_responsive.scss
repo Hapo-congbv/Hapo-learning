@@ -180,8 +180,13 @@
   }
 
   .hapo-wrap-feedback {
+    .hapo-title-feedback {
+      @include fontUTM(bold, 50px, $color_txt);
+    }
+
     .hapo-titletext-feedback {
-      padding: 10px 0;
+      padding: 10px 75px;
+      @include fontUTM(normal, 18px, $color_txt);
     }
   }
 
@@ -242,9 +247,14 @@
         margin: auto 15px;
       }
 
-      img {
-        width: 80%;
-        height: auto;
+      .img-facebook {
+        width: 12px;
+        height: 26px;
+      }
+      
+      .img-call {
+        width: 26px;
+        height: 26px;
       }
 
       .icon-mail {
@@ -537,10 +547,16 @@
         height: 35px;
       }
 
-      img {
-        width: 70%;
+      .img-facebook {
+        width: 13px;
+        height: 23px;
       }
       
+      .img-call {
+        width: 20px;
+        height: 20px;
+      }
+
       .icon-mail {
         font-size: large;
       }
