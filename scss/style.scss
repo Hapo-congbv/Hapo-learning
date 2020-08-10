@@ -24,13 +24,6 @@ body {
   margin: 0;
 }
 
-header {
-  .img-logo {
-    width: 340px;
-    height: 70px;
-  }
-}
-
 #sibarNavbar {
   li {
     a {
@@ -261,7 +254,7 @@ header {
       padding: 10px;
       letter-spacing: -0.05em;
       margin-top: 20px;
-      -webkit-text-stroke-width: 0.7px;
+      -webkit-text-stroke-width: 0.3px;
       @include fontUTM(bold,14px,#505353);
     }
 
@@ -293,26 +286,6 @@ header {
   }
 }
 
-// .all-courses {
-//   height: 50px;
-//   letter-spacing: -0.02em;
-//   @include fontUTM(bold, 40px, $color_link);
-
-//   a {
-//     font-size: 50px;
-//     margin-top: 60px;
-//     color: #90ab26;
-//     letter-spacing: -0.02em;
-//     text-shadow: 2px 0 1px;
-
-//     &:hover {
-//       text-decoration: none;
-//       font-weight: 600;
-//       font-size: 55px;
-//     }
-//   }
-// }
-
 .hapo-boder-title-button {
   border-bottom: 6px solid $color_link;
   padding-bottom: 15px;
@@ -338,13 +311,13 @@ header {
     font: normal bold 70px/86px UTM;
     margin-bottom: 20px;
     position: relative;
-    top: 180px;
+    top: 170px;
   }
 
   .hapo-inf-body {
     .hapo-content {
       position: relative;
-      top: 85px;
+      top: 50px;
     }
   }
   
@@ -499,8 +472,6 @@ header {
   }
 
   .hapo-statistic-body {
-    padding: 0 80px;
-
     .hapo-statistic-name {
       color: #505353;
       -webkit-text-stroke: 1px #505353;
@@ -527,11 +498,6 @@ footer {
   }
 
   .hapo-footer-logo{
-    img {
-      width: 291.6px;
-      height: 60px;
-    }
-
     p {
       margin-right: 70px;
       letter-spacing: -0.05em;
@@ -571,8 +537,11 @@ footer {
     }
 
     img {
-      width: 100%;
-      height: auto;
+      width: 90%;
+    }
+
+    .img-call {
+      margin-left: 4px;
     }
 
     .icon-mail {
@@ -580,6 +549,7 @@ footer {
       color:#505353; 
       font-size: xx-large;
     }
+
   }
 
   .hapo-copyright {
@@ -591,10 +561,14 @@ footer {
       margin: auto;
       text-align: center;    
       letter-spacing: -0.05em;
-      -webkit-text-stroke: 0.6px $main_color;
-      @include fontUTM(normal, 20px, $main_color)
+      -webkit-text-stroke: 0.06px $main_color;
+      @include fontUTM(normal, 15px, $main_color)
     }
   }
+}
+
+.tooltip {
+  top: -10px !important;
 }
 
 @import 'responsive';
