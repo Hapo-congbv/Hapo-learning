@@ -254,7 +254,7 @@ body {
     font: normal bold 70px/86px UTM;
     margin-bottom: 20px;
     position: relative;
-    top: 170px; }
+    top: 155px; }
   .hapo-wrap-inf .hapo-inf-body .hapo-content {
     position: relative;
     top: 50px; }
@@ -389,7 +389,7 @@ footer .container-content {
   padding: 50px 80px 0 80px;
   background: #505353; }
 footer .hapo-footer-logo p {
-  margin-right: 70px;
+  margin-left: 65px;
   letter-spacing: -0.05em;
   font: normal 20px UTM;
   color: #FFFFFF; }
